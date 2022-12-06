@@ -29,7 +29,6 @@ if (!isset($_SESSION['score'])) {
          <h3 id ='score'>Your Score is: <?php
             if (isset($_SESSION['score'])) {
             	echo $_SESSION['score'];
-            	unset($_SESSION['score']);
             }
             ?></h3>
          </div>
