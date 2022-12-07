@@ -34,10 +34,11 @@ if (!isset($_SESSION['score'])) {
          </div>
         <div class="questions">
         <h3>Questions</h3>
+        <br>
             <form action="process.php" method="post">
-                <ol>
+                <ul>
                     <li>
-                        <h4>What does PHP stand for?</h4>
+                        <h4>1. What does PHP stand for?</h4>
                         <div>
                             <input type="radio" name="q1" id="q1a" value="a">
                             <label for="q1a">Personal Home Page</label>
@@ -55,8 +56,9 @@ if (!isset($_SESSION['score'])) {
                             <label for="q1d">None of the above</label>
                         </div>
                     </li>
+                    <br>
                     <li>
-                        <h4>What is the correct way to end a PHP statement?</h4>
+                        <h4>2. What is the correct way to end a PHP statement?</h4>
                         <div>
                             <input type="radio" name="q2" id="q2a" value="a">
                             <label for="q2a">New Line</label>
@@ -74,8 +76,9 @@ if (!isset($_SESSION['score'])) {
                             <label for="q2d">None of the above</label>
                         </div>
                     </li>
+                    <br>
                     <li>
-                        <h4>Which of the following is not a reserved word in PHP?</h4>
+                        <h4>3. Which of the following is not a reserved word in PHP?</h4>
                         <div>
                             <input type="radio" name="q3" id="q3a" value="a">
                             <label for="q3a">interface</label>
@@ -93,8 +96,9 @@ if (!isset($_SESSION['score'])) {
                             <label for="q3d">None of the above</label>
                         </div>
                     </li>
+                    <br>
                     <li>
-                        <h4>Which of the following is not a valid function in PHP?</h4>
+                        <h4>4. Which of the following is not a valid function in PHP?</h4>
                         <div>
                             <input type="radio" name="q4" id="q4a" value="a">
                             <label for="q4a">is_float()</label>
@@ -112,8 +116,9 @@ if (!isset($_SESSION['score'])) {
                             <label for="q4d">is_integer()</label>
                         </div>
                     </li>
+                    <br>
                     <li>
-                        <h4>Which of the following is not a valid constant in PHP?</h4>
+                        <h4>5. Which of the following is not a valid constant in PHP?</h4>
                         <div>
                             <input type="radio" name="q5" id="q5a" value="a">
                             <label for="q5a">__LINE__</label>
@@ -131,17 +136,16 @@ if (!isset($_SESSION['score'])) {
                             <label for="q5d">__FUNCTION__</label>
                         </div>
                     </li>
-                </ol>
+                </ul>
                 <br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" style="margin-left: 6px; padding : 10px; color : #f2f8f6; background-color :#000000;">
             </form>
             
         </div>
     </div>
 </main>
-<footer>  <div class="container">
+<footer> 
 &copy; Masum Billah Zihadi 2022
-</div></footer>
-    <script src="script.js"></script>
+</footer>
 </body>
 </html>
